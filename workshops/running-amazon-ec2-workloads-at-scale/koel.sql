@@ -1,4 +1,7 @@
-CREATE USER 'koel'@'%' IDENTIFIED BY 'SoSecureMuchWow';
+-- CREATE USER 'koel'@'%' IDENTIFIED BY 'SoSecureMuchWow';
+-- GRANT SELECT,INSERT,UPDATE,DELETE,DROP ON koel.* TO 'koel'@'%';
+
+CREATE USER 'koel'@'%' IDENTIFIED BY 'm@zh@mb3';
 GRANT SELECT,INSERT,UPDATE,DELETE,DROP ON koel.* TO 'koel'@'%';
 
 
